@@ -61,8 +61,16 @@
 			else {
 				alert("You're obese")
 			}
+	</script>
 
+	<script>
+		function Calculate(){
+			var num1 = document.getElementById("num1").value;
+			var num2 = document.getElementById("num2").value;
 
+			document.getElementById("result1").innerHTML = Math.round(num1);
+			document.getElementById("result2").innerHTML = Math.round(num2);
+		}
 	</script>
 
 
